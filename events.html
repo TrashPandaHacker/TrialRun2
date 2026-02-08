@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — Trash Panda Motors</title>
+  <meta name="description" content="Track days, drift nights, meets." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="index.html">
+        <div class="mark">TP</div>
+        <div><h1>Trash Panda Motors</h1><p>Track • Drift • Builds</p></div>
+      </a>
+      <nav class="links">
+        <a href="builds.html">Builds</a>
+        <a href="events.html">Events</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="tag"><span class="dot"></span> Calendar, not excuses</div>
+      <h2>Events</h2>
+      <p class="sub">Track days, drift nights, meets. Add your dates and let’s go.</p>
+    </section>
+
+    <section class="section">
+      <h3>Upcoming</h3>
+      <div class="list">
+        <div class="row">
+          <div>
+            <h4>Track Day — TBD</h4>
+            <p class="sub">Location: TBD • Time: TBD</p>
+            <div class="meta">
+              <span class="chip">Type: Track</span>
+              <span class="chip">Bring: Helmet</span>
+            </div>
+            <button class="pill" data-toast="We can add RSVP + Google Maps embed.">RSVP</button>
+          </div>
+          <div class="placeholder">Event poster / track photo</div>
+        </div>
+
+        <div class="row">
+          <div>
+            <h4>Drift Night — TBD</h4>
+            <p class="sub">Location: TBD • Time: TBD</p>
+            <div class="meta">
+              <span class="chip">Type: Drift</span>
+              <span class="chip">Rule: Send it</span>
+            </div>
+            <button class="pill" data-toast="Add ticket link here later.">Details</button>
+          </div>
+          <div class="placeholder">Clip / embed</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Trash Panda Motors</span>
+      <span>Show up. Drive. Repeat.</span>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
