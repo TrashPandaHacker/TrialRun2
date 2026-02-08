@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sergio Apolinar</title>
+    <meta name="description" content="Operations leader. Builder. Creator." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">SA</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <p class="tag">Operations • Leadership • Building cool stuff</p>
+        <h1>Sergio Apolinar</h1>
+        <p class="sub">
+          Amazon Area Manager II. UTA Accounting & Finance. I build brands, systems, and projects that
+          actually ship.
+        </p>
+        <div class="cta">
+          <a class="btn" href="#contact">Contact me</a>
+          <a class="btn ghost" href="#projects">See projects</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I’m an operations leader focused on safety, quality, and performance. Outside of work, I build
+          creative projects (brands, visuals, and systems) and I’m always leveling up.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>What I do</h3>
+            <ul>
+              <li>Performance management & process improvement</li>
+              <li>Safety leadership & standard work</li>
+              <li>Project execution & team development</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>What I’m building</h3>
+            <ul>
+              <li>Trash Panda (creative brand)</li>
+              <li>Saint Apollo (concept + documentation)</li>
+              <li>Fitness + skill growth systems</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <h2>Work</h2>
+        <div class="timeline">
+          <div class="item">
+            <div class="when">2021 — Present</div>
+            <div class="what">
+              <h3>Area Manager II — Amazon Fulfillment</h3>
+              <p>Leading teams, improving metrics, and delivering results with consistent execution.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="when">2018 — 2021</div>
+            <div class="what">
+              <h3>Process Assistant (T3) — Amazon</h3>
+              <p>Supported operations, coached associates, and built fundamentals.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="project">
+            <h3>Trash Panda Prints</h3>
+            <p>Brand identity + visual designs + merch concepts.</p>
+            <button class="pill" data-toast="Add a link when you're ready.">View</button>
+          </article>
+
+          <article class="project">
+            <h3>Trash Panda Motors</h3>
+            <p>Motorsport brand concept: track builds, livery ideas, content pipeline.</p>
+            <button class="pill" data-toast="We can add a gallery + build log.">View</button>
+          </article>
+
+          <article class="project">
+            <h3>Saint Apollo</h3>
+            <p>Documentation-style project with “field dossier” aesthetic.</p>
+            <button class="pill" data-toast="This one would look insane as a microsite.">View</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Drop a message. I’ll reply like an adult, not like a corporate robot.</p>
+
+        <form class="form" id="contactForm">
+          <label>
+            Name
+            <input name="name" type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" placeholder="you@email.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="What’s up?" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="fineprint">
+            This form is “front-end only” right now (it won’t actually email you yet). I can wire it up
+            to Formspree, Netlify Forms, or a free backend.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Sergio Apolinar</p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
