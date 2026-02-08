@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Trash Panda Motors</title>
+  <meta name="description" content="Contact Trash Panda Motors." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="index.html">
+        <div class="mark">TP</div>
+        <div><h1>Trash Panda Motors</h1><p>Track • Drift • Builds</p></div>
+      </a>
+      <nav class="links">
+        <a href="builds.html">Builds</a>
+        <a href="events.html">Events</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="tag"><span class="dot"></span> Talk to us</div>
+      <h2>Contact</h2>
+      <p class="sub">Tell us what you’re building and what you need. We’ll keep it real.</p>
+    </section>
+
+    <section class="section">
+      <h3>Message</h3>
+
+      <form class="form" id="contactForm">
+        <label>
+          Name
+          <input name="name" type="text" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" placeholder="you@email.com" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="What are you working on?" required></textarea>
+        </label>
+
+        <button class="btn" type="submit">Send</button>
+        <p class="fine">
+          This is demo-only right now. If you want real delivery, I’ll wire it to Netlify Forms or Formspree.
+        </p>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Trash Panda Motors</span>
+      <span>Serious builds. Trash panda energy.</span>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
